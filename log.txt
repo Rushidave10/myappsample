@@ -30,4 +30,11 @@ Have to create a branch) ie : git branch <nameofbranch>.
 12. I am still on master branch to shift to the secondary branch (let's take name as 'login')
 I would have to git checkout login.
 
+13. add few files using touch command. After successfully coding the RL alog. commit it to login branch.
 
+14. You now want to add this work to master Branch, so all cna use it. Threfore you merge it.
+A screen woudl open where you can comment why you needed to merge the branch to master.
+
+15. Press Esc and :wq tp come out of that screen and then you are set. 
+
+16. Next we move to remote repository.
