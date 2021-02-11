@@ -1,0 +1,33 @@
+1. Installation
+
+2. git bash -> by creating a new folder and bashing in that folder
+
+3. Creating multiple files with .extension. git init is thee first command. Use
+ touch <filename>
+
+4. adding it to staging area -> git add .   or git add <filename>
+
+5. git status --> to get know which file are in staging area and ready to commit.
+
+6. Any changes made from this point(i.e after git add . ) will not be staged and 
+considered as modified file. In order to add the modified file to 
+staging area, git add command has to be reperformed.
+
+7. git commit --> commits all the files in staging to remote repository.
+HINTS --> git commit -m 'Changed <filename>'
+
+8. Create .gitignore file and add name of all the files and folder which
+you do not want to add to staging every time to perform add command.
+
+9. clear command to clear the whole screen
+
+10. Commit all changes before creating the branch.
+
+11. Branches: ( In situation where I am working with a team and I Have just joined. I
+do not want to make changes to master branch but still wanna commit My work. I would 
+Have to create a branch) ie : git branch <nameofbranch>.
+
+12. I am still on master branch to shift to the secondary branch (let's take name as 'login')
+I would have to git checkout login.
+
+
